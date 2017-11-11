@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+    <title>Otto Yiu - Systems Software Engineer</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type='text/css' />
+    <link href='//fonts.googleapis.com/css?family=Noticia+Text:400,700' rel='stylesheet' type='text/css' />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="page-container">
+        <nav class="center" style="display: none;">
+            <div id="nav-container">
+                <div class="github-card" data-user="ottoyiu"></div>
+            </div>
+        </nav>
+        <div id="main-banner">
+        </div>
+        <div id="button-bar" class="center">
+            <div id="github-icon" title="github" data-link="http://github.com/ottoyiu" class="center button-link link small" style="margin-right: 8px;">
+                <i class="fa fa-github fa-4x"></i>
+            </div>
+            <div id="profile-pic" data-content="GitHub Profile" class="center button-link label"></div>
+            <div id="linkedin-icon" title="linkedin" data-link="http://www.linkedin.com/pub/otto-yiu/34/642/a50" class="center button-link link small" style="margin-left: 8px;">
+                <i class="fa fa-linkedin-square fa-4x"></i>
+            </div>
+        </div>
+
+        <div id="main-content" class="center">
+            <h2 class="tagline terminal">
+                $ whoami
+            </h2>
+                <p>
+                    Hello there! I'm <b>Otto</b>, a <b>Systems Software Engineer</b> specializing in <b>Infrastructure and Operations</b>.
+                </p>
+                <br />
+                <p style="padding: 5px 30px;">
+                    Various different roles in my career has led me to develop expertise in Infrastructure (Datacenter + Cloud) Automation,
+                    Container Orchestration, Build (CI/CD) Pipelines, API design and development, and Front-end Web Development.
+                </p>
+                <br />
+                <p>
+                I am currently working a multi-year initiative to shift <b>large-scale online services</b> used by
+                popular AAA game titles on to a new <b>Continuous Deployment Pipeline</b>.
+                    Key Focus of this project is to increase development agility, and lower operational costs by being able to
+                    reliably run and manage services at-scale using <b>Linux Containers on Kubernetes</b>, on-premise and on AWS.
+                    Previously, I have worked on a similar project that made use of <b>Marathon and Mesos</b> on AWS instead.
+                </p>
+                <br />
+                <p>
+                Alongside, I try my best to find time to contribute back to the <b>open-source</b> community, revolving around projects that have
+                    benefited me greatly. Check out my <a href="https://github.com/ottoyiu/">GitHub</a> if you would like to learn more about what open-source projects I'm currently working on!
+                </p>
+                <br />
+                <p>
+                On Sunny days, I love roaming around beautiful <b>Vancouver, British Columbia</b> on my bike and electric skateboard, doing casual weekend hikes, kayaking calm waters, relaxing on the beach and working on my car. On gloomy days, I spend most of my time working on personal projects surrounding small home automation and electronics.
+                </p>
+            <hr />
+            <h3 id="contact-header" class="terminal">$ cat ~/.gitconfig | grep email </h3>
+            <p>email = <strong>me@ottoyiu.com</strong></p>
+            <br />
+            <p>Feel free to email me with any inquiries you may have.</p>
+        </div>
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+			OY.Main.init();
+		});
+    </script>
+    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+</body>
+<footer>
+    <div id="footer-container" class="center">
+        <div class="fl">
+            <a href="https://github.com/ottoyiu" title="GitHub" target="_blank">GitHub</a> | <a href="http://www.linkedin.com/pub/otto-yiu/34/642/a50" title="LinkedIn" target="_blank">LinkedIn</a> | <a href="#contact-header" title="Contact">Email</a> | Proudly Hosted on a Kubernetes Cluster
+        </div>
+        <div class="fr">
+            <span>&copy; 2017 - <a href="#profile-name">Otto Yiu</a></span>
+        </div>
+
+    </div>
+</footer>
+
+</html>
