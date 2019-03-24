@@ -105,7 +105,13 @@ nav {
 }
 
 #main-banner {
-    background-color: #33ab83;
+    background: -moz-linear-gradient(133deg, rgba(69,104,220,1) 0%, rgba(176,106,179,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(176,106,179,1)), color-stop(100%, rgba(69,104,220,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(133deg, rgba(69,104,220,1) 0%, rgba(176,106,179,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(133deg, rgba(69,104,220,1) 0%, rgba(176,106,179,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(133deg, rgba(69,104,220,1) 0%, rgba(176,106,179,1) 100%); /* ie10+ */
+    background: linear-gradient(317deg, rgba(69,104,220,1) 0%, rgba(176,106,179,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B06AB3', endColorstr='#4568DC',GradientType=0 ); /* ie6-9 */
     box-shadow: 0px 1px 5px 0px rgba(173, 173, 173, 1);
     height: 114px;
     vertical-align: middle;
@@ -115,7 +121,7 @@ nav {
     height: 181px;
     position: relative;
     top: -100px;
-    margin-bottom: -106px;
+    margin-bottom: -120px;
 }
 #profile-pic {
     background: #fff url("../images/profile.png");
@@ -189,7 +195,10 @@ nav {
 #main-content {
     width: 80%;
     max-width: 920px;
-    padding-bottom: 40px;
+    padding: 10px 20px 40px 20px;
+    background: #f3f3f3;
+    border-radius: 25px;
+    box-shadow: 0px 5px 5px 4px rgb(230, 230, 230);
 }
 
 footer {
